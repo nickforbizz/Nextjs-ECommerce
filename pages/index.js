@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-   <Layout>
+   <Layout home>
      <h2> Products </h2>
 
      <Grid container spacing={3}>
