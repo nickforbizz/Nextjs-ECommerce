@@ -32,8 +32,8 @@ export default function Product() {
                 </Grid>
 
                 <Grid item md={3} xs={12}>
+                         <Typography component="h1" variant="h1"> {product.name} </Typography>
                     <List>
-                        <ListItem> <Typography component="h1" variant="h1"> {product.name} </Typography></ListItem>
                         <ListItem>Category: {product.category}</ListItem>
                         <ListItem>Brand: {product.brand}</ListItem>
                         <ListItem>Ratings: {product.rating} stars ({product.numReviews} reviews) </ListItem>

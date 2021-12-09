@@ -1,10 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import NLink from 'next/link'
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography } from '@material-ui/core'
 import Layout from '../components/Layout'
 import data from '../utils/data'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
