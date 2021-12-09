@@ -1,0 +1,13 @@
+
+.m5{
+    margin: 1rem 0 !important;
+}
+.page404{
+    font-weight: bold;
+    font-size: small;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
