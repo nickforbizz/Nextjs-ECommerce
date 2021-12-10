@@ -28,7 +28,7 @@ export default function Product() {
                            alt={product.name}
                            height={640}
                            width={640}
-                           layout='responsive'></Image>
+                           layout='responsive'/>
                 </Grid>
 
                 <Grid item md={3} xs={12}>
